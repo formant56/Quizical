@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+
+  width: 400px;
+
+  background-color: #f5f7fb;
+  font-family: Inter;
+  color: #293264;
+}
+
+main {
+  max-width: 10px;
+  background-color: black;
+  margin-left: 32vw;
+}
+
+h1 h2 h3 h4 {
+  font-family: Karla;
+}
+
+.first--main {
+  margin-top: 2%;
+  max-height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1%;
+  padding: 5% 17%;
+  min-width: 600px;
+
+  /* padding: 150px 400px; */
+  z-index: 1;
+  background-color: #f5f7fb;
+  border-radius: 40px;
+}
+
+.first--main > h1 {
+  font-size: 130px;
+  margin-left: -140px;
+}
+
+.first--main > h3 {
+  font-size: 50px;
+  width: 400px;
+  padding-left: 1000;
+}
+
+.start-button {
+  width: 350px;
+  height: 100px;
+  background-color: #4d5b9e;
+  border-radius: 40px;
+  color: #f5f7fb;
+  font-size: 25px;
+}
+
+.quiz--container {
+  margin-left: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.quiz--answerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 13px;
+}
+
+.quiz--questions {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.quiz--button {
+  border-radius: 8px;
+  border: 0.8px solid #4d5b9e;
+  padding: 5px 20px;
+}
+
+.imgyellow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.imgblue {
+  position: fixed;
+  left: 0;
+  bottom: -15px;
+}
+
+.selected {
+  background-color: #d6dbf5;
+  border: 1px solid transparent;
+}
+
+.incorrect {
+  background-color: #f8bcbc;
+  border: 1px solid transparent;
+}
+
+.correct {
+  background-color: #94d7a2;
+  border: 1px solid transparent;
+}
+
+hr {
+  width: 400px;
+  border: 0.794239px solid #dbdef0;
+}
+
+.checkbutton {
+  width: 120px;
+  height: 45px;
+  font-size: 15px;
+  background: #4d5b9e;
+  color: #f5f7fb;
+  border-radius: 10px;
+  margin-top: 20px;
+  z-index: 10;
+}
+.firstbutton {
+  margin-left: 300px;
+}
+.score {
+  display: flex;
+  margin-left: 100px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.score > h4 {
+  z-index: 10;
+  margin-left: 60px;
+}
+
+.quiz--grand {
+  position: relative;
+  z-index: 10;
+  background-color: transparent;
+}
